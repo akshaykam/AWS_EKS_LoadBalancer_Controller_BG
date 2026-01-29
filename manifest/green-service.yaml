@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     app: demo
-    version: green
+    version: green    # this line switches
   ports:
   - port: 80
     targetPort: 5678
